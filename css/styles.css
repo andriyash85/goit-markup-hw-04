@@ -111,6 +111,7 @@ header {
 }
 
 .contacts-icon {
+  fill: var(--second-text-color);
   margin-right: 10px;
 }
 .contacts-base {
@@ -331,7 +332,6 @@ header {
 .social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 .footer-contacts {
   padding-top: 60px;
@@ -480,7 +480,7 @@ header {
   justify-content: center;
 }
 .footer-social-icon {
-  fill: #afb1b8;
+  fill: var(--third-text-color);
 }
 .footer-social-link:hover,
 .footer-social-link :focus {
